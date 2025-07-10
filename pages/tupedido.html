@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Brown</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Coffee Brown</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/tupedido.html">Tu pedido 🛒</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pedido-container">
+        <h1>Tu pedido</h1>
+        <div class="pedido-grid">
+            <div class="pedido-lista">
+                <div class="pedido-item">
+                    <img src="../img/coissantdulce.jpg" alt="Croissants">
+                    <div>
+                        <p>2 Unidades</p>
+                        <p>1 relleno salado clásico</p>
+                        <p>1 relleno salado Brown</p>
+                        <p class="precio">$40.000</p>
+                    </div>
+                </div>
+                <div class="pedido-item">
+                    <img src="../img/pan.jpg" alt="Galletitas">
+                    <div>
+                        <p>12 Unidades</p>
+                        <p>6 de chocolate especial Brownie</p>
+                        <p>6 de pistacho</p>
+                        <p class="precio">$40.000</p>
+                    </div>
+                </div>
+            </div>
+            <form class="formulario">
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="text" placeholder="Retiras por">
+                <div class="total">TOTAL <span>$80.000,00</span></div>
+                <button type="submit">Reservar</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>Retirá tu pedido en</p>
+            <p>Maipú 2020<br>Cabildo 750</p>
+            <p>Todos los días<br>9:00 - 20:30</p>
+        </div>
+        <div>
+            <p><a href="#productos">Productos</a></p>
+            <p><a href="#reservas">Reservas</a></p>
+            <p><a href="#nosotros">Nosotros</a></p>
+        </div>
+        <div>
+            <p>Encontranos en :</p>
+            <p>📸 🌐</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+
+</html>
